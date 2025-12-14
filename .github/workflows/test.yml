@@ -1,0 +1,9 @@
+name: test
+on: push
+jobs:
+  test:
+    name: testing
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: test
+        run: lscpu
