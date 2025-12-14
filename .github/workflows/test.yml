@@ -6,4 +6,4 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: test
-        run: lscpu | grep -e Model -e Flags
+        run: lscpu | grep -e "Model name:" -e Flags
